@@ -3,8 +3,16 @@ __pycache__/
 .venv/
 .env
 wandb/
+
 outputs/*
 !outputs/.gitkeep
+!outputs/logmel_crnn_bilstm_extension/
+!outputs/logmel_crnn_bilstm_extension/**
+
+!outputs/logmel_crnn_gru_baseline/
+!outputs/logmel_crnn_gru_baseline/**
+
+datasets
 data/
 *.zip
 .tmp_ci_urbansound/
